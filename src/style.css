@@ -1,0 +1,133 @@
+header {
+  margin: auto 12px 12px;
+  box-shadow: 2px 5px 12px #909090;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px auto;
+  border-radius: 12px;
+}
+header h1 {
+  padding-left: 12px;
+}
+header > img {
+  width: 90px;
+  border-radius: 0 12px 12px 0;
+}
+* {
+  font-family: Lato;
+}
+.profile-card {
+  background-image: linear-gradient(to bottom, red, yellow, lime, cyan, blue);
+  height: max-content;
+  width: 300px;
+  margin: auto;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 12px black;
+}
+.profile-card img {
+  border-radius: 100px;
+  height: 95px;
+  margin: auto;
+}
+
+.menu-bar {
+  display: grid;
+  place-items: center;
+  margin: 12px 0;
+}
+.menu-bar input {
+  place-self: start;
+  margin: 12px auto auto 12px;
+  height: max-content;
+  width: max-content;
+  padding: 12px;
+  -webkit-appearance: none;
+  outline: 0;
+  border: 2px solid #545454;
+  border-radius: 12px;
+  position: relative;
+}
+
+.menu-bar input:hover {
+  background-color: #fede12;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: #000;
+}
+
+.menu-bar input::after {
+  content: "MENU";
+}
+
+.menu-bar > .menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px 0;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+.menu-bar > .menu > li {
+  background-color: navy;
+  width: 100%;
+  padding: 7px 3px;
+  line-height: 2;
+  font-size: 1.2em;
+}
+.menu-bar > .menu > li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu-bar > .menu > li a:hover {
+  color: #ff12ff;
+  cursor: pointer;
+}
+
+.description {
+  line-height: 2;
+  padding: 0 12px;
+  color: default;
+  text-align: justify;
+}
+.page-description {
+  width: 400px;
+  margin: 12px auto;
+  text-align: center;
+  line-height: 2;
+  background-color: black;
+  color: whitesmoke;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.container h1 {
+  letter-spacing: 1.2px;
+}
+.container > input {
+  padding: 12px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  border: 2px solid #202020;
+}
+
+footer {
+  text-align: center;
+  margin: 12px 0;
+  background-color: indianred;
+  color: wheat;
+  padding: 12px;
+  border-radius: 12px;
+}
