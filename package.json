@@ -3,9 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "anime": "^0.1.2",
+    "framer": "^1.2.12",
     "home": "^2.0.0",
-    "react": "17.0.0",
-    "react-dom": "17.0.0"
+    "motion": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "17.0.0",
+    "redux": "^4.0.5",
+    "reveal": "^0.0.4",
+    "spring": "^0.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
