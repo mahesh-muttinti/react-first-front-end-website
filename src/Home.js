@@ -27,7 +27,7 @@ export default function Home() {
         </ul>
       </nav>
 
-      <div class="profile-card">
+      <div className="profile-card">
         <img
           src="https://media-exp1.licdn.com/dms/image/C4E03AQEWnUNs9nBCHg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=-IC-uiY8DCCavT23yjg41jCqZHGHfR3MyRRzN19zqMM"
           style={{
